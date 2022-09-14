@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+    color: black;
+    border-top: 1px double;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rosybrown;
+    padding: 0.5rem;
+    position: fixed;
+    right: 5px;
+    top:0px;
+}
+body{
+    background-color: gainsboro
+}
+#pageTitle{
+    background-color: darkorchid;
+    padding: 1rem;
+    margin-left: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    top: -1rem;
+    color: palegoldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.posts{
+    border: 1px double;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    padding: 1rem;
+}
+.posts:first-child{
+    margin-top: 7rem;
+}
+.userForm{
+    display: flex;
+    flex-direction: column;    
+    width: 15rem;
+    margin-top: 7rem;
+}
+.userForm>input{
+   
+    margin-bottom: 1rem;
+}
+.userForm>button{
+    width: 50%;
+    align-self: center;
+}
+.pageContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.formContainer{
+    display: flex;
+    width: 100%;
+    
+}
+.formContainer>h1{
+    justify-self: flex-start;
+}
+.formContainer>form{
+    justify-self: center;
+}
