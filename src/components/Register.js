@@ -30,11 +30,13 @@ const Register = ({setToken, history})=>{
         }}>
             <TextField
             type='text'
+            className="input"
             label='username'
             onChange={(event)=> setUsername(event.target.value)}
             />
             <TextField
             type='password'
+            className="input"
             label="password"
             onChange={(event)=> setPassword(event.target.value)}
             />

@@ -19,7 +19,7 @@ import {
     getMyProfile
 } from './api';
 import { CssBaseline } from "@mui/material";
-import style2 from "/style2.css"
+
 
 
 
